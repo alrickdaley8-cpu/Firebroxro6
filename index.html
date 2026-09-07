@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#080b0f" />
+    <meta name="description" content="A quiet corner of an infinite universe. Explore four imagined worlds in Aether, a cinematic interactive 3D observatory." />
+    <meta property="og:title" content="AETHER — Beyond the known" />
+    <meta property="og:description" content="An interactive journey through the outer reaches. Choose a world. Get a little lost." />
+    <meta property="og:type" content="website" />
+    <link rel="icon" type="image/svg+xml" href="./assets/favicon.svg" />
+    <title>AETHER — Beyond the known</title>
+    <style>
+      html, body { margin: 0; background: #080d13; }
+      #boot { min-height: 100svh; display: grid; place-content: center; justify-items: center; color: #d7c7b4; text-align: center; font-family: sans-serif; }
+      #boot img { width: 52px; height: 52px; margin-bottom: 24px; }
+      #boot strong { font-size: 20px; font-weight: 400; letter-spacing: .35em; padding-left: .35em; }
+      #boot p { font-size: 10px; color: #91a0b1; margin-top: 20px; }
+    </style>
+  </head>
+  <body>
+    <a href="#worlds" class="skip-link">Skip to destinations</a>
+    <div id="app"><div id="boot" role="status"><img src="./assets/favicon.svg" alt="" /><strong>AETHER</strong><p>Opening a window to the universe.</p></div></div>
+    <noscript><div class="no-script">AETHER is an interactive 3D observatory. Please enable JavaScript to explore the worlds.</div></noscript>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
