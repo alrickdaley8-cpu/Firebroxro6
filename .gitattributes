@@ -1,0 +1,2 @@
+# Keep third-party legal notices verbatim, including their upstream Markdown spacing.
+public/licenses/* -whitespace
